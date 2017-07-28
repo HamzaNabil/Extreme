@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS Document */ /* from 951 to 542 */
+ 
+/************************************ All    ***************************************/
+
+*,*:after,*:before
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/********************************** Section Header ****************************************/
+
+section.header
+{
+    background: url(../images/slide-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+section.header div.logo_nav{width:100%; height:200px; }
+
+section.header div.logo_nav img{margin-top: 40px;float: left;width: 30%;}
+
+section.header div.logo_nav nav{width:70%;float: right; height: 100%;padding-top:  50px; padding-left: 60px; }
+
+section.header div.logo_nav nav ul{display: flex;float: left;}
+
+section.header div.logo_nav nav ul li{padding-right: 10px;color: #fff;}
+
+section.header div.logo_nav nav ul li i {
+    background: #e9073c;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+section.header div.logo_nav nav ul li i:hover{background: #333;color: #fff}
+
+section.header div.logo_nav nav ul li i:hover ~ span{color: #f40;}
+
+section.header div.logo_nav nav ul li span{line-height: 2.5;font-weight: 800;font-family: verdana; }
+
+section.header div.logo_nav nav select,section.header div.logo_nav nav select option
+{
+    outline: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    background: 0;
+    border: 0;
+    background: #262626;
+    color: #fff; 
+}
+
+section.header div.logo_nav nav input
+{
+    outline: 0;
+    width: 200px;
+    height: 50px;
+    padding-left: 5px;
+    position: relative;
+    bottom: 100px;
+    float: right;
+    right: 120px;
+    border: 0;
+    background: #f2f2f2;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+ 
+section.header div.logo_nav nav div.color
+{
+    height: 150px;
+    width: 60px;
+    background: #e9073c;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+
+section.header div.logo_nav nav div.color span{text-align: center;position: relative;display: block; top:120px;color: #fff;font-size: 20px;}
+
+section.header div.logo_nav nav div.color:hover span{color: aquamarine;position: relative;top:  60px;}
+
+section.header div.logo_nav nav div.color i  {color: #fff;margin-left: 7px;}
+
+
+/****** head nav *****/
+
+section.header div.NavBarHead{width: 100%;height: 82px;opacity: 0.8;background: #333;}
+
+section.header div.NavBarHead ul{display: flex;}
+
+section.header div.NavBarHead ul li{padding: 2.5%;font-size: 18px;margin-left: 15px;border-left: 1px solid #222;  }
+
+section.header div.NavBarHead ul li:last-child{border-right: 1px solid #222;}
+
+section.header div.NavBarHead ul li:hover {border-left: 4px solid #e9073c;}
+
+section.header div.NavBarHead ul li a{text-decoration: none;color: #fff;text-transform: uppercase;}
+
+/*Again*/ 
+
+div.NavBarHead1{width: 100%;height: 82px;opacity: 1;background: #333;display: none;  position: fixed;z-index: 99999;margin-top: -600px;}
+
+div.NavBarHead1 ul{display: flex;}
+
+div.NavBarHead1 ul li{padding: 2.5%;font-size: 18px;margin-left: 15px;border-left: 1px solid #222; }
+
+div.NavBarHead1 ul li:last-child{border-right: 1px solid #222;}
+
+div.NavBarHead1 ul li:hover {border-left: 4px solid #e9073c;}
+
+div.NavBarHead1 ul li a{text-decoration: none;color: #fff;text-transform: uppercase;}
+
+/************************************* clothing *******************************/
+
+section.clothing{ width:100%; }
+
+section.clothing div.baners{position: relative;bottom: 120px;}
+
+section.clothing div.pat1{background: url(../images/banner-1.jpg);}
+ 
+@-webkit-keyframes main{0%{color: #ddd;} 100%{color: #fff}}
+@-moz-keyframes main{0%{color: #ddd;} 100%{color: #fff}}
+@-ms-keyframes main{0%{color: #ddd;} 100%{color: #fff}}
+@-o-keyframes main{0%{color: #ddd;} 100%{color: #fff}} 
+@keyframes main{0%{color: #ddd;} 100%{color: #fff}}
+
+section.clothing div.pat2{ background: url(../images/banner-2.jpg);}
+
+section.clothing div.pat3{ background: url(../images/banner-3.jpg);}
+
+section.clothing div.pat4{background: url(../images/banner-4.jpg);}
+
+section.clothing div.pat1 h3,section.clothing div.pat2 h3,section.clothing div.pat3 h3,section.clothing div.pat4 h3
+{
+    font-weight: bold;
+    font-size: 5em;
+    color: #fff;
+    text-transform: uppercase;
+    animation: main 0.5s 5 ease-in-out;
+}
+section.clothing div.pat3 h3{font-size: 4.5em;}
+
+section.clothing div.pat1 p,section.clothing div.pat2 p,section.clothing div.pat3 p,section.clothing div.pat4 p
+{
+    color: #fff;
+    font-size: 15px;
+}
+
+section.clothing div.pat1 button ,section.clothing div.pat2 button,section.clothing div.pat3 button,section.clothing div.pat4 button
+{
+    color: #000;
+    background: 0; 
+    border: 0; 
+    position: relative; 
+    top: 2px;
+}
+section.clothing div.pat2 button{top:80px;}
+section.clothing div.pat3 button{top:85px;} 
+
+section.clothing div.pat1 button:before,section.clothing div.pat2 button:before,section.clothing div.pat3 button:before,
+section.clothing div.pat4 button:before
+{
+    content: "shop me";
+    background: #e9073c;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.clothing div.pat1 button i,section.clothing div.pat2 button i,section.clothing div.pat3 button i,section.clothing div.pat4 button i
+{
+    background: #262626;
+    padding: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.clothing div.pat1 button:hover i,section.clothing div.pat2 button:hover i,section.clothing div.pat3 button:hover i,
+section.clothing div.pat4 button:hover i
+{
+    background: #e9073c;
+}
+
+
+section.clothing div.pat1 button:hover::before , section.clothing div.pat2 button:hover::before ,
+section.clothing div.pat3 button:hover::before , section.clothing div.pat4 button:hover::before 
+{
+    background: #262626;
+}
+
+
+section.clothing div.pat1,section.clothing div.pat2,section.clothing div.pat3,section.clothing div.pat4
+{
+    width:550px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    border-top: 2px solid #e9073c;
+    padding-left: 15px; 
+}
+
+
+section.clothing div.pat1:hover,section.clothing div.pat2:hover,section.clothing div.pat3:hover,section.clothing div.pat4:hover
+{
+    border-top: 2px solid #333;
+}
+
+/********************* equipment *********************************/
+
+section.equipment {width: 100%; height: 800px;}
+
+section.equipment .bar{width: 100%;height: 80px;background: #111;opacity: 0.8;position: relative;bottom: 90px;}
+section.equipment .bar ul { margin-left: 260px;}
+
+section.equipment .bar ul li
+{
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em; 
+}
+
+section.equipment .bar ul li:hover,section.equipment .bar ul li:focus{color: #e9073c;cursor: pointer;}
+
+section.equipment div.homes{position: relative; margin-bottom: 400px;margin-top: -60px;}
+
+section.equipment div.homes div.part1 ,section.equipment div.homes div.part2,section.equipment div.homes div.part3,
+section.equipment div.homes div.part4
+{
+    width: 23%;
+    margin-left: 10px;
+    height: 240px;
+    float: left;
+    background: #f2f2f2;
+}
+
+section.equipment div.homes div.part1 img ,section.equipment div.homes div.part2 img,
+section.equipment div.homes div.part3 img ,section.equipment div.homes div.part4 img
+{
+    width: 220px;
+    text-align: center;
+    position: relative;
+    left: 20px; 
+    
+} 
+
+section.equipment div.homes div.part1 img:hover ,section.equipment div.homes div.part2 img:hover,
+section.equipment div.homes div.part3 img:hover ,section.equipment div.homes div.part4 img:hover
+{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+section.equipment div.homes div.part1 div.info ,section.equipment div.homes div.part2 div.info ,
+section.equipment div.homes div.part3 div.info ,section.equipment div.homes div.part4 div.info
+{
+    position: relative;
+    top: 15px;
+}
+
+section.equipment div.homes div.part1 div.info h4 ,section.equipment div.homes div.part2 div.info h4,
+section.equipment div.homes div.part3 div.info h4 ,section.equipment div.homes div.part4 div.info h4
+{
+    font-size: 15px;
+}
+
+section.equipment div.homes div.part1 div.info h2 ,section.equipment div.homes div.part2 div.info h2,
+section.equipment div.homes div.part3 div.info h2 ,section.equipment div.homes div.part4 div.info h2
+{
+    color: #ff5b23;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+section.equipment div.homes div.part1 div.info h2 span ,
+section.equipment div.homes div.part3 div.info h2 span  
+{
+    color: #777777;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+section.equipment div.homes div.part1 div.info .x ,section.equipment div.homes div.part2 div.info .x,
+section.equipment div.homes div.part3 div.info .x ,section.equipment div.homes div.part4 div.info .x
+{
+    background: #e9073c;
+    position: relative;
+    bottom: 20px;
+    padding: 6px;
+    color: #fff;
+}
+
+section.equipment div.homes div.part1 div.info button ,section.equipment div.homes div.part2 div.info button,
+section.equipment div.homes div.part3 div.info button ,section.equipment div.homes div.part4 div.info button
+{
+    position: relative;
+    bottom: 30px;
+    padding: 17px;
+    border: 0;
+    background: 0;
+    background: #262626;
+    color: #fff;
+    font-weight: bold;
+}
+
+section.equipment div.homes div.part1 div.info button i,section.equipment div.homes div.part2 div.info button i,
+section.equipment div.homes div.part3 div.info button i,section.equipment div.homes div.part4 div.info button i
+{
+    color: #e9073c;
+}
+section.equipment div.homes div.part1 div.info button:before ,section.equipment div.homes div.part2 div.info button:before,
+section.equipment div.homes div.part3 div.info button:before ,section.equipment div.homes div.part4 div.info button:before
+{
+    content: "More";
+}
+
+/********************************* footwear ************************************/
+
+section.footwear
+{
+    width: 100%;
+    height: 500px;
+    background: url("../images/parallax-1.jpg")  center center fixed;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+section.footwear h3{color: #fff; font-size: 5em;text-transform: uppercase}
+
+section.footwear h2{color: #fff; font-size: 7em; color: #e9073c;}
+
+section.footwear p{color: #fff;float: left; width: 70%;}
+
+section.footwear i{color: #fff;position: relative;background: #e9073c;padding: 20px;}
+
+section.footwear:hover  i{background: #333;color: #fff;}
+
+section.footwear:hover h2
+{
+    color: #fff; 
+    -webkit-animation: ms 0.5s 1 ease-in-out;
+    -moz-animation: ms 0.5s 1 ease-in-out;
+    -ms-animation: ms 0.5s 1 ease-in-out;
+    -o-animation: ms 0.5s 1 ease-in-out;
+    animation: ms 0.5s 1 ease-in-out;
+}
+
+section.footwear:hover h3{color: #e9073c;}
+
+@-webkit-keyframes ms{0%{opacity: 0;} 100%{opacity: 1;}}
+@-moz-keyframes ms{0%{opacity: 0;} 100%{opacity: 1;}}
+@-ms-keyframes ms{0%{opacity: 0;} 100%{opacity: 1;}}
+@-o-keyframes ms{0%{opacity: 0;} 100%{opacity: 1;}}
+@keyframes ms{0%{opacity: 0;} 100%{opacity: 1;}}
+
+/********************************************* menus *************************************************/
+section.mens{width: 100%;padding-top: 35px;height: 530px;}
+
+section.mens div.left_menus{width: 49%; height: 300px;float: left;   }
+
+section.mens div.right_menus{width: 49%; height: 300px;float: right;}
+
+section.mens div.left_menus h4 ,section.mens div.right_menus h4{background: #e9073c;display: inline;padding: 10px;color: #fff;}
+
+section.mens div.left_menus img ,section.mens div.right_menus img{width: 100%;margin-top: 15px;position: relative;}
+
+section.mens div.left_menus img:hover,section.mens div.right_menus img:hover{ opacity: 0.8;}
+ 
+section.mens div.left_menus  p, section.mens div.right_menus  p{color:darkgrey;}
+
+/********************************************** Pathes ******************************************/
+
+section.paths
+{
+    width: 100%;
+    height: 500px;
+    background: url(../images/parallax-2.jpg) center center fixed ;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+section.paths div.path1
+{
+    width: 30%;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.9);
+    padding-left: 15px;
+    padding-top: 30px;
+    float: left;
+}
+
+section.paths div.path1:hover{opacity: 0.8;}
+
+section.paths div.path1 i{color: #e9073c;}
+
+section.paths div.path1 h2{font-size: 40px;}
+
+section.paths div.path1 p{color: #888}
+
+section.paths div.path1 .x2{background: #000;padding: 15px;float: right;color: #fff;cursor: pointer;}
+
+section.paths div.path2
+{
+    width: 30%;
+    height: 350px;
+    background: rgba(233, 7, 60, 0.9);
+    padding-left: 15px;
+    padding-top: 30px;
+    float: left;
+    margin-left: 50px;
+}
+
+section.paths div.path2:hover{opacity: 0.8;}
+
+section.paths div.path2 i{color: #fff;}
+
+section.paths div.path2 h2{font-size: 40px; color: #fff;}
+
+section.paths div.path2 p{color: #fff;}
+
+section.paths div.path2 .x2{background: #000;padding: 15px;float: right;color: #fff;cursor: pointer;}
+
+section.paths div.path3
+{
+    width: 30%;
+    height: 350px;
+    background: rgba(26, 26, 26, 0.9);
+    padding-left: 15px;
+    padding-top: 30px;
+    float: left;
+    margin-left: 50px;
+}
+
+section.paths div.path3:hover{opacity: 0.8;}
+
+section.paths div.path3 i{color: #fff;}
+
+section.paths div.path3 h2{font-size: 40px;color: #fff}
+
+section.paths div.path3 p{color: #fff}
+
+section.paths div.path3 .x2{background: #e9073c;padding: 15px;float: right;color: #fff;cursor: pointer;}
+
+
+/******* foot1 foreign ******************/
+
+section.startfoot{width: 100%;height: 90px;margin-top: 50px;background: #000}
+
+section.startfoot div.left_f{float: left;margin-top: 30px;}
+
+section.startfoot div.left_f h4 ,section.startfoot div.right_f h4
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    right: 10px;
+}
+
+section.startfoot div.left_f input{width: 180px;position: relative;top: 0px;left: 10px;height: 40px;float: left;outline: 0;}
+
+section.startfoot div.left_f i{position: relative;left: 10px;background: #e9073c;padding: 6px;color: #fff;}
+
+section.startfoot div.right_f{float: right;margin-top: 30px;}
+
+section.startfoot div.right_f i{background: #333;color: #fff;padding: 18px;border-radius: 50%;position: relative;bottom: 15px; width: 59px;}
+
+section.startfoot div.right_f i:hover{background: #fff;color: #e9073c;cursor: pointer;}
+
+/******************** footer primary ****************************************/
+
+section.footer{width: 100%;padding-bottom: 50px;border-bottom: 1px solid #ddd;}
+
+section.footer div.left_foot{ float: left;width: 70%; border-right: 1px solid #ddd;margin-top: 50px;}
+
+section.footer div.left_foot nav{float: left; margin-right: 90px;}
+ 
+section.footer div.left_foot nav h3{color: #000;font-weight: bold;font-size: 25px; text-transform: uppercase}
+
+section.footer div.left_foot nav  ul li{line-height: 2.3;color: #777;border-bottom: 1px solid #DDD;cursor: pointer;}
+
+section.footer div.left_foot nav  ul li:hover{color: #e9073c;}
+
+section.footer div.right_foot{float: right;margin-top: 50px;width: 28%;}
+
+section.footer div.right_foot h4{font-weight: bold;}
+
+section.footer div.right_foot p{color: #777;}
+
+section.footer div.right_foot i{color: #e9073c;float: left;}
+
+section.footer div.right_foot h3{position: relative;bottom: 10px;left: 5px;font-weight: bold;}
+
+section.footer div.right_foot h5{font-size: 13px;}
+
+section.footer div.right_foot h5 span{color: #e9073c;}
+
+div.copyright{color: #777}
+
+/* group */ 
+section.paths div.path1,
+section.paths div.path2,
+section.paths div.path3,
+section.footer div.left_foot nav  ul li,
+section.mens div.left_menus img ,section.mens div.right_menus img,
+section.startfoot div.right_f i,
+div.NavBarHead1 ul li,
+section.equipment .bar ul li,
+section.header div.logo_nav nav ul li i,section.header div.logo_nav nav ul li span,
+section.header div.logo_nav nav div.color span ,section.header div.logo_nav nav div.color i ,section.header div.NavBarHead ul li,
+section.footwear:hover h2,
+section.equipment div.homes div.part1 img ,section.equipment div.homes div.part2 img,
+section.equipment div.homes div.part3 img ,section.equipment div.homes div.part4 img,
+section.clothing div.pat1,section.clothing div.pat2,section.clothing div.pat3,section.clothing div.pat4
+{
+    
+    -webkit-transition:all 0.5s ease-in-out  ;
+    -moz-transition:all 0.5s ease-in-out  ;
+    -o-transition:all 0.5s ease-in-out  ;
+    -ms-transition:all 0.5s ease-in-out  ;
+    transition:all 0.5s ease-in-out  ;
+}
+
+
+
+
+
+
+
+
